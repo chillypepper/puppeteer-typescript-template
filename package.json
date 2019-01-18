@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer_ts",
+  "version": "1.0.0",
+  "description": "Quick demo using Puppeteer with TypeScript for browser testing",
+  "main": "src/minimal.ts",
+  "scripts": {
+    "start": "tsc && node javascriptVersions/minimal.js",
+    "advanced": "tsc && node javascriptVersions/advanced.js"
+  },
+  "author": "ChillyPepper (https://github.com/chillypepper/puppeteer-typescript-template)",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chillypepper/puppeteer-typescript-template.git"
+  },
+  "devDependencies": {
+    "@types/node": "10.12.18",
+    "@types/puppeteer": "1.11.1",
+    "typescript": "3.2.4"
+  },
+  "dependencies": {
+    "puppeteer": "1.11.0"
+  }
+}

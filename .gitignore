@@ -1,0 +1,6 @@
+// Node modules
+node_modules/*
+
+// Keep the folder for the outputs, but hide all of the content
+outputs/*
+!outputs/.gitkeep
